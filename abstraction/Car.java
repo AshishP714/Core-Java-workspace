@@ -1,12 +1,13 @@
-package com.abstraction;
+package RevisionCodes;
 
-public class Car implements Vehicle {
-	public void start() {
-		System.out.println("Car started ");
+public class Car extends Vehical {
+
+	public Car(int speed) {
+		super(speed);
 	}
 
-	public void stop() {
-		System.out.println("Car stoped ");
+	@Override
+	void run() {
+		System.out.println("Car is running.....");
 	}
-
 }
