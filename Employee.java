@@ -1,26 +1,18 @@
-package practice;
+package java8;
 
-public final class Employee {
+public class Employee {
 
-	private final String name;
-	private final int id;
-	private final Address address;
+	public int id;
+	public String name;
+	public String email;
+	public double salary;
+	public String address;
 	
-	public Employee(String name, int id, Address address) {
-		this.name = name;
+	public Employee(int id, String name, String email, double salary, String address) {
 		this.id = id;
-		this.address = new Address(address.getCity());
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	public Address getAddress() {
-		return new Address(address.getCity());
+		this.name = name;
+		this.email = email;
+		this.salary = salary;
+		this.address = address;
 	}
 }
