@@ -2,8 +2,8 @@ package com.string;
 
 public class ByLiterls {
 	public static void main(String[] args) {
-		String str1 = "payal";
-		String str2 = "Payal";
+		String str1 = "ashish";
+		String str2 = "ashish";
 		String str3 = str1;
 		// check refence(is they pointing same object or not)
 		System.out.println("using == opertor");
