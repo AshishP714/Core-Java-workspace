@@ -3,17 +3,16 @@ package com.string;
 public class ByObjectCreation {
 	public static void main(String[] args) {
 		//String with new 
-		String s1=new String("Payal");
-		String s2=new String("Payal");
-		String s3=new String("Priya");
+		String s1=new String("Ashish");
+		String s2=new String("Ashish");
+		String s3=new String("Shubham");
 		System.out.println("by checking equal() method....!");
 		//first we will check if they have content or not
-		System.out.println(s1.equals(s2));//true because both have same content as Payal
-		System.out.println(s1.equals(s3));//false because s1 contain Payal and s3 refence contain Priya
+		System.out.println(s1.equals(s2));
+		System.out.println(s1.equals(s3));
 		System.out.println(s2.equals(s3));//false
 		System.out.println("by checking == opertor.....!");
-		// checks by using == operator
-		//is they pointing both same object then its true if not then false
+		
 		System.out.println(s1==s2);//false
 		System.out.println(s2==s3);//false
 		String s4=s3;
