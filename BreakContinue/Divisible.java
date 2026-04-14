@@ -1,4 +1,3 @@
-//print the number from 1 to 50 but skip number divisible by 7
 public class Divisible {
 
 	public static void main(String[] args) {
