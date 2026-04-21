@@ -1,10 +1,5 @@
 package com.throwexception;
 
-//Login Validation
-//Create a method that checks username.
-//If username is empty ("") → throw Exception.
-//Declare throws Exception.
-//Handle exception in main() using try-catch.
 public class Login {
 	String userName;
 
@@ -25,7 +20,6 @@ public class Login {
 			l.check();
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
-
 		}
 	}
 }
