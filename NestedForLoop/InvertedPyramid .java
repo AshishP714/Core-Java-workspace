@@ -1,9 +1,3 @@
-//* * * * *
-// * * * *
-//  * * *
-//   * *
-//    *
-
 public class InvertedPyramid {
 
 	public static void main(String[] args) {
@@ -16,8 +10,6 @@ public class InvertedPyramid {
 			System.out.print("* ");
 		}
 		System.out.println("");
+		}
 	}
-
-	}
-
 }
