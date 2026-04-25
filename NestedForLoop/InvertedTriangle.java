@@ -1,11 +1,3 @@
-//* * * * *
-//* * * *
-//* * *
-//* *
-//*
-
-
-
 public class InvertedTriangle {
 
 	public static void main(String[] args) {
@@ -15,9 +7,5 @@ public class InvertedTriangle {
 			}
 			System.out.println(" ");
 		}
-
 	}
-
 }
-
-		
