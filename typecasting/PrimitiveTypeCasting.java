@@ -1,11 +1,5 @@
 package com.typecasting;
 
-//✅ Question 1: Implicit + Explicit Together
-//Write a Java program that:
-//Takes int a = 25
-//Converts it to double
-//Then converts it back to int
-//Print all three values
 public class PrimitiveTypeCasting {
 	public static void main(String args[]) {
 		int a = 25;
