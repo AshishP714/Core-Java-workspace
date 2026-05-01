@@ -12,8 +12,6 @@ public class Ascending {
 				arr[i]=arr[j];
 				arr[j]=temp;
 			}
-			
-			
 		}
 		System.out.println(arr[i]);	
 	}
