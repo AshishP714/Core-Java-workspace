@@ -1,6 +1,5 @@
 package com.arraypractice;
 
-//Write a program to sort a 1D array in descending order.
 public class Descending {
 	public static void main(String[] args) {
 		int[] arr = { 12, 45, 78, 20 };
@@ -11,12 +10,9 @@ public class Descending {
 					arr[i] = arr[j];
 					arr[j] = temp;
 				}
-
 			}
 			System.out.println(arr[i]);
-
 		}
 		System.out.println("------------");
-
 	}
 }
