@@ -4,7 +4,7 @@ public class WhatsAap implements Meta {
 
 	@Override
 	public void logIn(String userName, String password) {
-		if (userName.equals("ashish@2003") && password.equals("ashishl456")) {
+		if (userName.equals("payal@2021") && password.equals("payal456")) {
 			System.out.println("Google Login SuccessFully... !");
 		} else {
 			System.out.println("Invalid username and password");

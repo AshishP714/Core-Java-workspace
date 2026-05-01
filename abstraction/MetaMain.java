@@ -4,7 +4,7 @@ public class MetaMain {
 
 	public static void main(String[] args) {
 		Meta m = new Google();
-		m.logIn("ashish@2003", "ashish456");
+		m.logIn("payal@2021", "payal456");
 		m.logOut();
 		// m.search(); not possible throught refrence creation to call specfic method of
 		// object
@@ -17,7 +17,7 @@ public class MetaMain {
 		g1.search();
 		System.out.println("----------------------");
 		m = new WhatsAap();
-		m.logIn("ashish@2003", "ashish456");
+		m.logIn("payal@2021", "payal456");
 		m.logOut();
 		// m.search(); not possible throught refrence creation to call specfic method of
 		// object
