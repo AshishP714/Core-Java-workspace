@@ -1,11 +1,7 @@
-// Write a program to return "Valid" if the number is even and between 35 to 65, else return "Invalid".
-
 package com.Excercise;
 
 public class Validation {
-
 	public int a;
-
 	public String validation(int a) {
 
 		if (a >= 35 && a <= 65) {
@@ -18,13 +14,11 @@ public class Validation {
 			return "Invalid..."; // public string method must be return something.
 		}
 	}
-
 	public String name(String a) {
 		System.out.println("name returned from the method: " + a);
 
 		return a;
 	}
-
 	public void meddleName() {
 		System.out.println("meddle name returned from the method");
 	}
@@ -33,11 +27,8 @@ public class Validation {
 		System.out.println("Surname returned from the surname method: " + a);
 		return a;
 	}
-
 	public static void main(String[] args) {
-
 		Validation even = new Validation();
-
 		even.validation(43);
 		String name = even.name("Ashish");
 		String surname = even.surname("Pardeshi");
