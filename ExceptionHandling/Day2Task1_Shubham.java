@@ -12,7 +12,6 @@ public class Day2Task1_Shubham {
 		} catch (InputMismatchException e) {
 			System.out.println("invalid input please enter only digits");
 		}
- 
 		sc.close();
 	}
 }
