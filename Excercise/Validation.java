@@ -11,7 +11,7 @@ public class Validation {
 				return "Invalid...";
 			}
 		} else {
-			return "Invalid..."; // public string method must be return something.
+			return "Invalid...";
 		}
 	}
 	public String name(String a) {
