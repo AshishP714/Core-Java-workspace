@@ -1,7 +1,7 @@
 package com.runnableinterface;
 
 public class InBulidMethod extends Thread {
-	public void run() {// run methode wher we write logic
+	public void run() {
 		for (int i = 1; i <= 10; i++) {
 			System.out.println("Hi");
 			Thread.yield();
