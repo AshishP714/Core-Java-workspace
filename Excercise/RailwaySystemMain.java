@@ -26,7 +26,5 @@ public class RailwaySystemMain {
 		System.out.println("Train number =" + number);
 		tra.arriving();
 		tra.departing();
-
 	}
-
 }
