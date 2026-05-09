@@ -38,5 +38,4 @@ public class TestGetterSetters {
 	public void setStudent(boolean isStudent) {
 		this.isStudent = isStudent;
 	}
-
 }
