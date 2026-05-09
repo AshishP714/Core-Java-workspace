@@ -1,4 +1,3 @@
-//1. Write a method to print your name (no return, no parameters).
 package com.myname;
 
 public class PrintName {
