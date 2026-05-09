@@ -1,9 +1,5 @@
 package com.stringpractice;
 
-//First Non-Repeating Character
-//
-//👉 Input: "aabbcdde"
-//👉 Output: c
 public class Practice2403 {
 	public static void main(String[] args) {
 
@@ -15,7 +11,6 @@ public class Practice2403 {
 				if (ch == str.charAt(j)) {
 					count++;
 				}
-
 			}
 			if (count == 1) {
 				System.out.println(ch);
