@@ -1,4 +1,3 @@
-
 package com.myname;
 
 public class PrintNameMain {
@@ -7,5 +6,4 @@ public class PrintNameMain {
 		PrintName p1 = new PrintName();
 		p1.name();
 	}
-
 }
