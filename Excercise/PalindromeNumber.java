@@ -1,9 +1,4 @@
 package com.practice28feb;
-//Check Palindrome String
-
-//Input: "madam"
-//Output: "Palindrome"
-//(Use if-else and loop)
 
 public class PalindromeNumber {
 
@@ -14,7 +9,6 @@ public class PalindromeNumber {
 			char ch = input.charAt(i);
 			output = output + ch;
 		}
-		// System.out.println(output);
 		if (output.equals(input) == true) {
 			System.out.println(input + " Is palindrome ");
 		} else {
