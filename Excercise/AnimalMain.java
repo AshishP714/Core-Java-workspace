@@ -1,4 +1,3 @@
-
 public class AnimalMain {
 
 	public static void main(String[] args) {
@@ -48,7 +47,5 @@ public class AnimalMain {
 		hourse.eating();
 		hourse.display();
 		System.out.println("------");
-
 	}
-
 }
