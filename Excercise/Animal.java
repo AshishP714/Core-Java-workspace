@@ -1,4 +1,3 @@
-
 public class Animal {
 	String animalName;
 	String color;
@@ -29,5 +28,4 @@ public class Animal {
 		System.out.println("Height =" + height + "feet");
 		System.out.println(" Is a pet animal =" + ispetAnimal);
 	}
-
 }
