@@ -1,4 +1,3 @@
-//write a program to print all elements of an array
 public class PrintAllElements{
 public static void main (String args[]){
 int[] arr1={2,3,4,1,8};
@@ -8,9 +7,6 @@ System.out.println(arr1[i]);
 }
 }
 
-
-
-//write a program to find sum of all elements in an array
 public class SumElements{
 public static void main(String args[]){
 int sum=0;
@@ -22,8 +18,6 @@ System.outt.println("Sum ="+sum);
 }
 }
 
-
-//write a program to find the average of array elements
 public class Average{
 public static void main (String args[]){
 int[]arr3={1,2,3,4,5};
@@ -31,13 +25,14 @@ int sum=0;
 for(int i=0;i<arr3.length;i++){
 sum=sum+arr3[i];
 }
-//System.out.println(arr3[i]);
+
+	
 int average=sum/arr3.length;
 System.out.println("Avereage ="+average);
 }
 }
 
-//write a program to find the largest elements in an array
+
 public class Largest{
 public static void main (String args[]){
 int[] arr4={1,2,3,4,5};
@@ -51,7 +46,6 @@ System.out.println("largest elements ="+max)
 }
 }
 
-//write a program to find the smallest elements in an array
 public class SmallestElements{
 public static void main(String args[] ){
 int[] arr5={11,3,4,5};
@@ -65,8 +59,6 @@ min=arr5[i];
 System.out.println("Smallest elements ="+min)
 }
 }
-
-//write a program to count even and odd numbers in array
 
 public class CountEvenOdd{
 public static void main(String args[]){
