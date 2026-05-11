@@ -47,5 +47,4 @@ public class Account {
 	public int getPin() {
 		return pin;
 	}
-
 }
