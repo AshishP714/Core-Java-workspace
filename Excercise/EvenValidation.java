@@ -1,5 +1,3 @@
-// Write a program to return "Valid" if the number is even and between 35 to 65, else return "Invalid".
-
 package com.Excercise;
 
 import org.json.JSONObject;
@@ -41,10 +39,7 @@ public class EvenValidation {
 	}
 
 	public static void main(String[] args) {
-
 		EvenValidation even = new EvenValidation();
-
-		System.out.println("Result " + even.validation(46));
-		
+		System.out.println("Result " + even.validation(46));		
 	}
 }
