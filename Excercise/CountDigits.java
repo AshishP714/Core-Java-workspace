@@ -1,4 +1,3 @@
-//Write a program to count the number of digit of a number. 
 package com.Excercise;
 
 public class CountDigits {
@@ -25,4 +24,3 @@ public class CountDigits {
 		countDigits.Count(144);
 	}
 }
-
