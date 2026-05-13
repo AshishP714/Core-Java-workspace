@@ -8,5 +8,4 @@ public class Gmap extends Google {
 	public void route() {
 		System.out.println("Showing route");
 	}
-
 }
