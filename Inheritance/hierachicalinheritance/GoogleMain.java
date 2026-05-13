@@ -3,7 +3,7 @@ package com.hierachicalinheritance;
 public class GoogleMain {
 
 	public static void main(String[] args) {
-		// create object of child class
+		
 		Gmail g1 = new Gmail();
 		g1.login();
 		g1.write();
@@ -23,5 +23,4 @@ public class GoogleMain {
 		g3.logout();
 		System.out.println("------------------------------");
 	}
-
 }
