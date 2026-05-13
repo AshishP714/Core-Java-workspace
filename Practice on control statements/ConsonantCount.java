@@ -1,4 +1,3 @@
-//write a java program to count consonant of given string
 import java.util.Scanner;
 public class ConsonantCount{
 	public static void main(String args[]) {
@@ -12,7 +11,6 @@ public class ConsonantCount{
 			if(ch!='a'&&ch!='e'&&ch!='i'&&ch!='o'&&ch!='u') {
 				count++;
 			}
-			
 		}
 		System.out.println("count of String is ="+count);
 		sc.close();
