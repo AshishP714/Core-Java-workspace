@@ -6,5 +6,4 @@ public class EvenOddMain {
 		EvenOdd n1 = new EvenOdd();
 		System.out.println(n1.checkEvenOdd(65));
 	}
-
 }
