@@ -12,12 +12,9 @@ public class ForLoop {
 		for (int i = 1; i <= 10; i++) {
 			int n = sc.nextInt();
 			if (n > 0) {
-				// System.out.println("positive");
 				pos++;
 			} else if (n < 0) {
-				// System.out.println("negative");
 				neg++;
-
 			} else {
 				zero++;
 			}
@@ -25,7 +22,5 @@ public class ForLoop {
 		System.out.println("positive number are=" + pos);
 		System.out.println("negative number are=" + neg);
 		System.out.println("zero number are=" + zero);
-
 	}
-
 }
