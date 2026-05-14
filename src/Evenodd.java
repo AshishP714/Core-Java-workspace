@@ -6,9 +6,7 @@ public class Evenodd {
 			if (i % 2 != 0) {
 				break;
 			}
-			System.out.println(i);// value here never check because 1 is odd so, it stop the loop.
-
+			System.out.println(i);
 		}
 	}
-
 }
