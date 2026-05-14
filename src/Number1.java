@@ -8,7 +8,5 @@ public class Number1 {
 			}
 			System.out.println(i);
 		}
-
 	}
-
 }
