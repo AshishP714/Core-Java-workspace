@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-//Take name and age from user and display them.
 public class NameAge {
 
 	public static void main(String[] args) {
@@ -15,5 +14,4 @@ public class NameAge {
 		System.out.println("my name is " + b);
 		sc.close();
 	}
-
 }
