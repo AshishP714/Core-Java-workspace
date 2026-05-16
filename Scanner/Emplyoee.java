@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-//Take employee name, id, and salary and print employee details.
 public class Emplyoee {
 
 	public static void main(String[] args) {
@@ -17,7 +16,5 @@ public class Emplyoee {
 		System.out.println("Emplyoee Id =" + b);
 		System.out.println("Emplyoee Salary =" + c);
 		sc.close();
-
 	}
-
 }
