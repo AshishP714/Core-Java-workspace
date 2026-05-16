@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-//Take a character from user and check whether it is vowel or consonant.
 public class VowelConsonants {
 
 	public static void main(String[] args) {
@@ -16,5 +15,4 @@ public class VowelConsonants {
 		}
 		sc.close();
 	}
-
 }
