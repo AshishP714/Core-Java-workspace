@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-// Take a number and check if it is even or odd.
 public class EvenOddCheck {
 
 	public static void main(String[] args) {
@@ -16,5 +15,4 @@ public class EvenOddCheck {
 		}
 		sc.close();
 	}
-
 }
