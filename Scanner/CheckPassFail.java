@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-//Take marks as float and check whether student is pass or fail.
 public class CheckPassFail {
 
 	public static void main(String[] args) {
@@ -15,7 +14,5 @@ public class CheckPassFail {
 			System.out.println("fail");
 		}
 		sc.close();
-
 	}
-
 }
