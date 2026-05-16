@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-// Take the price and quantity of a product and print total bill.
 public class Bill {
 
 	public static void main(String[] args) {
@@ -14,5 +13,4 @@ public class Bill {
 		System.out.println("Bill  =" + a * b);
 		sc.close();
 	}
-
 }
