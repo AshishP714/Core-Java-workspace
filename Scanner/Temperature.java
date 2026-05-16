@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-//Take temperature in Celsius and convert to Fahrenheit.
 public class Temperature {
 
 	public static void main(String[] args) {
@@ -13,5 +12,4 @@ public class Temperature {
 		System.out.println("Fahrenheit=" + fahrenheit);
 		sc.close();
 	}
-
 }
