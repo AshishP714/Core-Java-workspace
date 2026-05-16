@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-// Take time in seconds and convert into minutes and seconds.
 public class SecondMinute {
 
 	public static void main(String[] args) {
@@ -15,5 +14,4 @@ public class SecondMinute {
 		System.out.println("Second =" + sec);
 		sc.close();
 	}
-
 }
