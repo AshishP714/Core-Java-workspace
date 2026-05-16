@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-//Take a number and check if it is positive, negative, or zero.
 public class CheckNumber {
 
 	public static void main(String[] args) {
@@ -18,5 +17,4 @@ public class CheckNumber {
 		}
 		sc.close();
 	}
-
 }
