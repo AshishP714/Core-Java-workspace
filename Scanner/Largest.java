@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-//Take three numbers and print the largest number.
 public class Largest {
 
 	public static void main(String[] args) {
@@ -22,5 +21,4 @@ public class Largest {
 		}
 		 sc.close();
 	}
-
 }
