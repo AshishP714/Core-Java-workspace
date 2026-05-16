@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-//Take two strings using nextLine() and print their concatenation.
 public class Concatenation {
 
 	public static void main(String[] args) {
@@ -13,7 +12,5 @@ public class Concatenation {
 		String b = sc.nextLine();
 		System.out.println("Concatention =" + (a + b));
 		sc.close();
-
 	}
-
 }
