@@ -1,6 +1,5 @@
 package com.Scanner;
 
-//Take marks of 5 subjects and print total & percentage.
 import java.util.Scanner;
 
 public class Subject {
@@ -22,7 +21,6 @@ public class Subject {
 		System.out.println("total =" + total);
 		double percentage = (total / 500.0) * 100;
 		System.out.println("Percentage =" + percentage);
-          sc.close();
+        sc.close();
 	}
-
 }
