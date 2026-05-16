@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-//Take two numbers from user and print their addition.
 public class Addition {
 
 	public static void main(String[] args) {
@@ -11,7 +10,6 @@ public class Addition {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		System.out.println("Addition  = " + (a + b));
-		 sc.close();
+		sc.close();
 	}
-
 }
