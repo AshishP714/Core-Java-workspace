@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-// Take two numbers and print multiplication & division.
 public class MultiplyDivision {
 
 	public static void main(String[] args) {
@@ -17,5 +16,4 @@ public class MultiplyDivision {
 		System.out.println("Division of " + a + " and " + b + " is " + (a / b));
 		sc.close();
 	}
-
 }
