@@ -21,7 +21,5 @@ public class FibonacciSeries {
 			n2++;
 		}
 		sc.close();
-
 	}
-
 }
