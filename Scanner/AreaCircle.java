@@ -2,7 +2,6 @@ package com.Scanner;
 
 import java.util.Scanner;
 
-//Take radius from user and calculate area of circle.
 public class AreaCircle {
 
 	public static void main(String[] args) {
@@ -12,5 +11,4 @@ public class AreaCircle {
 		System.out.println("Area of circle =" + (3.14 * r * r));
 		 sc.close();
 	}
-
 }
