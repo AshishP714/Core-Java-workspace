@@ -1,6 +1,5 @@
 package switchcase;
 
-// Take a single character input and check whether it is a vowel or consonant using a switch statement.
 public class Vowel {
 
 	public static void main(String[] args) {
@@ -41,7 +40,5 @@ public class Vowel {
 		}
 
 		}
-
 	}
-
 }
