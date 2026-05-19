@@ -1,5 +1,4 @@
 package switchcase;
-// Take a grade character (A, B, C, D, F) as input and print a message:
 
 public class Grade {
 
@@ -27,7 +26,5 @@ public class Grade {
 		}
 
 		}
-
 	}
-
 }
