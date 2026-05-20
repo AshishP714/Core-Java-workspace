@@ -1,6 +1,5 @@
-//Input color name (Red, Yellow, or Green) and print the appropriate action:
-
 package switchcase;
+
 public class Signal {
 
 	public static void main(String[] args) {
@@ -18,7 +17,5 @@ public class Signal {
 		default:
 			System.out.println("invalid input");
 		}
-
 	}
-
 }
