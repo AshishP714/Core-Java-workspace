@@ -1,4 +1,3 @@
-//1. Write a Java program that takes an integer (1to7) and prints the corresponding day name (e.g., 1 at Monday)
 package switchcase;
 
 public class Weekend {
@@ -29,8 +28,7 @@ public class Weekend {
 			break;
 		default: {
 			System.out.println("invalid input");
-		}
+			}
 		}
 	}
-
 }
