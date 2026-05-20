@@ -1,6 +1,5 @@
 package switchcase;
 
-// Take month number (1â€“12) and print the corresponding season:
 public class Season {
 
 	public static void main(String[] args) {
@@ -28,10 +27,7 @@ public class Season {
 			break;
 		default: {
 			System.out.println("invalid input");
+			}
 		}
-
-		}
-
 	}
-
 }
