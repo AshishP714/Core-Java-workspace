@@ -1,4 +1,5 @@
 package switchcase;
+// Accept a category type (Domestic, Commercial, Industrial) and print the electricity rate per unit using a switch case.
 
 public class Electricity {
 
@@ -18,5 +19,7 @@ public class Electricity {
 			System.out.println("invalid input");
 		}
 		}
+
 	}
+
 }

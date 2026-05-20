@@ -1,5 +1,6 @@
 package switchcase;
 
+// Use a switch statement to check if a number is even or odd (hint: use number % 2 as the expression)
 public class EvenOdd {
 
 	public static void main(String[] args) {
@@ -12,5 +13,7 @@ public class EvenOdd {
 			System.out.println("Odd number");
 			break;
 		}
+
 	}
+
 }

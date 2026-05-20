@@ -1,5 +1,6 @@
 package switchcase;
 
+// Accept two numbers and an operator (+, -, *, /) from the user and perform the operation using a switch case.
 public class Operator {
 
 	public static void main(String[] args) {
@@ -25,5 +26,7 @@ public class Operator {
 			System.out.println("invalid input");
 		}
 		}
+
 	}
+
 }

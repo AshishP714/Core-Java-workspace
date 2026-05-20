@@ -1,5 +1,6 @@
 package switchcase;
 
+//Accept a number (1to12) from the user and print the name of the month using a switch case.
 public class Month {
 
 	public static void main(String[] args) {
@@ -46,5 +47,7 @@ public class Month {
 		}
 
 		}
+
 	}
+
 }
