@@ -9,7 +9,5 @@ public class VehicleMain {
 		Bike b1 = new Bike();
 		b1.start();
 		b1.stop();
-
 	}
-
 }
