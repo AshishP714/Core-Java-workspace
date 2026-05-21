@@ -8,7 +8,5 @@ public class EmplyoeeMain {
 		e1.calculateSalary();
 		e1 = new partTimeEmployee(100, 4);
 		e1.calculateSalary();
-
 	}
-
 }
