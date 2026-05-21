@@ -14,7 +14,5 @@ public class ShapeMain {
 		System.out.println("area of rectangle is " + are);
 		double perimeter = r1.perimeter();
 		System.out.println("perimeter " + perimeter);
-
 	}
-
 }
