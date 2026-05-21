@@ -14,5 +14,4 @@ public class Circle implements Shape {
 	public double perimeter() {
 		return 2 * 3.142 * radius*radius;
 	}
-
 }
