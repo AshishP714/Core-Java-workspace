@@ -19,5 +19,4 @@ public class Google implements Meta {
 	public void search() {
 		System.out.println("Searching...!");
 	}
-
 }
