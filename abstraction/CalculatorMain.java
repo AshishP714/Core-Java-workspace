@@ -9,5 +9,4 @@ public class CalculatorMain {
 		s.multiply(3, 9);
 		s.subtract(3, 2);
 	}
-
 }
