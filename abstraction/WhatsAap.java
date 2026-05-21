@@ -14,11 +14,9 @@ public class WhatsAap implements Meta {
 	@Override
 	public void logOut() {
 		System.out.println("Google Logout ...!");
-
 	}
 
 	public void sendPhoto() {
 		System.out.println("Uploading photos on whatsaap");
 	}
-
 }
