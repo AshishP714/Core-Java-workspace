@@ -18,5 +18,4 @@ public class HotelMain {
 		l1.display();
 		sc.close();
 	}
-
 }
