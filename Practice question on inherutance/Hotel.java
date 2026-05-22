@@ -1,5 +1,9 @@
 package com.practice5feb;
 
+//7️⃣ Hotel Booking System
+//Create a Single Inheritance program where 
+//Hotel is the parent class and LuxuryHotel is the child class.
+//using encapsulation and also take input from users
 public class Hotel {
 //make private variable
 	private String hotelName;
@@ -21,4 +25,5 @@ public class Hotel {
 	public String getHotelLocation() {
 		return hotelLocation;
 	}
+
 }
