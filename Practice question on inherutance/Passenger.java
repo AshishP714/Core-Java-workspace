@@ -7,5 +7,4 @@ public class Passenger extends RailwaySystem {
 	public void passengerInfo() {
 		System.out.println("Passenger details...!");
 	}
-
 }
