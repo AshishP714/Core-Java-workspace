@@ -11,5 +11,4 @@ public class Train extends RailwaySystem {
 	public void arriving() {
 		System.out.println("train would be arriving at 6pm");
 	}
-
 }
