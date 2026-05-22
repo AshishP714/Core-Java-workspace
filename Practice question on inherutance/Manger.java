@@ -19,5 +19,4 @@ public class Manger extends Company {
 		System.out.println("Manger name is " + mangerName);
 		System.out.println("salary " + salary);
 	}
-
 }
