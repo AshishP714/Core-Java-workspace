@@ -1,8 +1,4 @@
 package com.practice5feb;
-//8️⃣ Transport System
-
-//Design a Hierarchical Inheritance structure for
-//Transport → Bus, Metro, Auto. using encapsulation
 
 public class Transport {
 	private String driverName;
