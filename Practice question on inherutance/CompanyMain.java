@@ -20,5 +20,4 @@ public class CompanyMain {
 		Manger m1 = new Manger(nameCom, location, totalnumEmp, nameManger, salary);
 		m1.display();
 	}
-
 }
