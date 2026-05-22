@@ -22,7 +22,5 @@ public class Book extends Section {
 		System.out.println("Book color =" + color);
 		System.out.println("Book title =" + title);
 		System.out.println("Book price =" + price);
-
 	}
-
 }
