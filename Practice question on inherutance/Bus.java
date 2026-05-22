@@ -26,5 +26,4 @@ public class Bus extends Transport {
 		System.out.println("Number osf stops in bus = " + getNumberOfStops());
 		System.out.println("Bus type =" + getBusType());
 	}
-
 }
