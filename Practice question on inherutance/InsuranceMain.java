@@ -22,5 +22,4 @@ public class InsuranceMain {
 		f1.display();
 		sc.close();
 	}
-
 }
