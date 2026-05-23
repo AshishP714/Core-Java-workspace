@@ -9,7 +9,5 @@ public class Emplyoee implements Serializable {
 		this.empId = empId;
 		this.empName = empName;
 		this.empCity = empCity;
-
 	}
-
 }
