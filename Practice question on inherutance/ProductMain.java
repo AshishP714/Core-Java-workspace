@@ -22,5 +22,4 @@ public class ProductMain {
 		m1.show();
 		sc.close();
 	}
-
 }
