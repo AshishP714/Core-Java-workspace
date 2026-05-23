@@ -16,6 +16,5 @@ public class UpiPayment extends Payment {
 		System.out.println("Bank Name =" + bankName);
 		System.out.println("UPI Id =" + id);
 		System.out.println("Payment Date =" + paymentDate);
-
 	}
 }
