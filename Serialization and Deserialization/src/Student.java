@@ -11,5 +11,4 @@ public class Student implements Serializable {
 		this.id = id;
 		this.collegeName = collegeName;
 	}
-
 }
