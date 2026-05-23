@@ -14,7 +14,5 @@ public class StudentSerialzation {
 		System.out.println("ByteStream created succesfully....!");
 		os.close();
 		file.close();
-
 	}
-
 }
