@@ -1,7 +1,5 @@
 package com.withreturntype;
 
-//No Parameter WITH Return Type
-//Write a method that returns an integer representing a fixed number.
 public class Number {
 	public int printFixNumber() {
 		int a = 8;
