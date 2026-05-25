@@ -1,12 +1,12 @@
 package com.withreturntype;
-
-//write a method that return factorial of number()number is fixed inside method 
+ 
 public class Factorial {
+	
 	public int printFactorialNumber() {
 		int num = 6;
 		int fact = 1;
 		for (int i = num; i > 0; i--) {
-			fact = fact * i;// 6*5*4*3*2*1;
+			fact = fact * i;
 		}
 		return fact;
 	}
