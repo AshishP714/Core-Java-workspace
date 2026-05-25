@@ -1,16 +1,13 @@
 package com.withreturntype;
 
-//write a method that return true if a fixed number is even
 public class Even {
-	public boolean checkEven() {//why boolean because we are returning
-		//value in true/false it comes in boolean data Ftype 
-		//return type and return should always match
+	
+	public boolean checkEven() {
 		int num = 12;
 		if (num % 2 == 0) {
 			return true;
 		}else {
 			return false;
 		}
-		
 	}
 }
