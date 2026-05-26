@@ -6,5 +6,4 @@ public class RectanglewithParameterMain {
 		RectanglewithParameter r = new RectanglewithParameter(5, 7);
 		r.displayArea();
 	}
-
 }
