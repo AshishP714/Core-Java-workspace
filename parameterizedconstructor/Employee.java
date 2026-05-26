@@ -1,6 +1,5 @@
 package com.parameterizedconstructor;
 
-//Create a class Employee with a parameterized constructor that accepts id, name, and salary.
 public class Employee {
 	int id;
 	String name;
