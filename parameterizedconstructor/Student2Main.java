@@ -6,5 +6,4 @@ public class Student2Main {
 		Student2 s2 = new Student2(4, "Raju");
 		System.out.println(s2);
 	}
-
 }
