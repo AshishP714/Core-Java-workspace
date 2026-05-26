@@ -1,6 +1,5 @@
 package com.parameterizedconstructor;
 
-// Write a program with a parameterized constructor to initialize id and name of a Student and display them. 
 public class Student2 {
 	int id;
 	String name;
