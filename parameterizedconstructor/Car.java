@@ -1,9 +1,5 @@
 package com.parameterizedconstructor;
 
-//Write a program to create a class Car with:
-//Non-parameterized constructor that prints “Car Started”.
-//Parameterized constructor that takes model name and price.
-//Create both objects.**
 public class Car {
 	String modelName;
 	double price;
