@@ -18,32 +18,4 @@ public class Shape2 {
 			System.out.println();
 		}
 	}
-}
-
-/*	
- * "*" Enter the no of rows:- 
-	5
-	*****
-	****
-	***
-	**
-	*
-	
-	
-	"j" Enter the no of rows:- 
-	5
-	12345
-	1234
-	123
-	12
-	1
-	
-	"k" Enter the no of rows:- 
-	5
-	11111
-	2222
-	333
-	44
-	5
-*/
- 
+} 
