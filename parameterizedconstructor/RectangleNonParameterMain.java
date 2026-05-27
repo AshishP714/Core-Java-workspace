@@ -6,5 +6,4 @@ public class RectangleNonParameterMain {
 		RectangleNonParameter a= new RectangleNonParameter();
 		a.displayArea();
 	}
-
 }
