@@ -15,7 +15,6 @@ public class Student2 {
 	}
 
 	@Override
-	//@Override prevent error
 	public String toString() {
 		return "Student id =" + id + ",Student name =" + name;
 	}
