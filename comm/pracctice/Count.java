@@ -1,10 +1,5 @@
 package comm.pracctice;
 
-//4. Count Number of Words in String
-//
-//Input: "Java is very easy"
-//
-//Output: 4
 public class Count {
 
 	public static void main(String[] args) {
@@ -15,9 +10,7 @@ public class Count {
 			if (ch == ' ') {
 				count++;
 			}
-
 		}
 		System.out.println("count  = " + count);
 	}
-
 }
