@@ -1,9 +1,7 @@
 package comm.pracctice;
 
-//3. Count Vowels and Consonants
-//
-//Input: "Hello World"
 public class CountVowelConsonants {
+	
 	public static void main(String[] args) {
 		String str = "Hello world";
 		int vowel = 0;
@@ -18,7 +16,6 @@ public class CountVowelConsonants {
 					consonants++;
 				}
 			}
-
 		}
 		System.out.println("Vowel =" + vowel);
 		System.out.println("Consonants =" + consonants);
