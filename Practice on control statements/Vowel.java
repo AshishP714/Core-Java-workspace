@@ -1,6 +1,7 @@
-//write a java Accept character and whether it is vowel or consonant
 import java.util.Scanner;
+
 public class Vowel {
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a given character");
@@ -12,6 +13,5 @@ public class Vowel {
 			System.out.println("consonant");
 		}
 		sc.close();
-
 	}
 }
