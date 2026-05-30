@@ -1,7 +1,7 @@
-
-//write a program to accept a number and find it zero ,positive or negative
 import java.util.Scanner;
+
 public class PosNegZer0 {
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number");
@@ -15,5 +15,4 @@ public class PosNegZer0 {
 		}
 		sc.close();
 	}
-
 }
