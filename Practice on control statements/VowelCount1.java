@@ -1,5 +1,3 @@
-
-//write a java program to count vowel 
 import java.util.Scanner;
 
 public class VowelCount1 {
@@ -14,13 +12,10 @@ public class VowelCount1 {
 			char ch = name.charAt(i);
 			if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I'
 					|| ch == 'O' || ch == 'U') {
-				// System.out.println("vowel");
 				count++;
 			}
-			// System.out.println(count);
 		}
 		System.out.println("count of vowel are ="+count);
 		sc.close();
 	}
-
 }
