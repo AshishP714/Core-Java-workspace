@@ -1,4 +1,3 @@
-//weekend
 public class Weekend {
 	public static void main(String[] args) {
 		int weekend = 2;
@@ -26,7 +25,6 @@ public class Weekend {
 			break;
 		default:
 			System.out.println("enter invalid number");
-
 		}
 	}
 }
