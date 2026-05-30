@@ -1,5 +1,3 @@
-
-//write a java program to accept two number and find smallest
 import java.util.Scanner;
 
 public class Smallest1 {
@@ -16,5 +14,4 @@ public class Smallest1 {
 		}
 		sc.close();
 	}
-
 }
