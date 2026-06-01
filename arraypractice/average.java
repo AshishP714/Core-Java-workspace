@@ -1,6 +1,5 @@
 package com.arraypractice;
 
-//Write a program to find the average of elements in a 1D array.
 public class average {
 	public static void main(String[] args) {
 		int[] arr = { 23, 34, 56, 76 };
