@@ -2,7 +2,6 @@ package com.arraypractice;
 
 import java.util.Scanner;
 
-//Write a program to print all elements of a 1D array.
 public class PrintElements {
 
 	public static void main(String[] args) {
@@ -16,8 +15,6 @@ public class PrintElements {
 		for (int i = 0; i < arr1.length; i++) {
 			System.out.println(arr1[i]);
 		}
-
 		sc.close();
 	}
-
 }
