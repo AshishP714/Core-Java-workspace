@@ -19,8 +19,8 @@ public class Student {
 
 	public static void main(String[] args) {
 		Student s = new Student("Payal", 89);
-		System.out.println("Passing marks =" + Student.passingMarks);// this are static member without object we can
-																		// call it
+		System.out.println("Passing marks =" + Student.passingMarks);
+																	
 		s.display();
 		Student s1 = new Student("Priya", 78);
 		s1.display();
