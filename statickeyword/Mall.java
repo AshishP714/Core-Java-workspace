@@ -1,8 +1,8 @@
 package com.statickeyword;
 
 public class Mall {
-	static String mallName;// static variable
-	String visitorName;// non static variable
+	static String mallName;
+	String visitorName;
 	static int totalVisistors = 0;
 	{
 		mallName = "Global mall";
