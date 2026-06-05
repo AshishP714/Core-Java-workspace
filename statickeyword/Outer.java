@@ -13,7 +13,5 @@ public class Outer {
 		Outer out = new Outer();
 		Outer.Inner inn = out.new Inner();
 		inn.method();
-
 	}
-
 }
