@@ -1,12 +1,5 @@
 package com.statickeyword;
 
-//Create a class MathUtils:
-//Static method square(int x) → returns square of x
-//Static method cube(int x) → returns cube of x
-//Non-static method add(int a, int b) → returns sum
-//In main():
-//Call static methods without creating object
-//Call non-static method using object
 public class MathsUtils {
 	static public int square(int x) {
 		int square = x * x;
