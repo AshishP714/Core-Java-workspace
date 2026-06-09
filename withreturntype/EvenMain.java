@@ -5,6 +5,5 @@ public class EvenMain {
 	public static void main(String[] args) {
 		Even num = new Even();
 		System.out.println(num.checkEven());
-		
 	}
 }
