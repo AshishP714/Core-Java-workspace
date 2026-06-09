@@ -7,7 +7,5 @@ public class Digit {
 			}
 			System.out.println(i);
 		}
-
 	}
-
 }
