@@ -8,5 +8,4 @@ public class Alphabet {
 			System.out.print(ch+" ");
 		}
 	}
-
 }
