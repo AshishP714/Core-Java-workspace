@@ -2,10 +2,6 @@ package comm.pracctice;
 
 import java.util.Scanner;
 
-//6. Check if String Contains Only Digits
-//
-//Input: "12345" → True
-//Input: "123a5" → False
 public class Practice {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -17,7 +13,6 @@ public class Practice {
 			char ch = a.charAt(i);
 			if (ch >= '0' && ch <= '9') {
                count++;
-				
 			}
 		}
 		if(count==a.length()) {
