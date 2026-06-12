@@ -1,7 +1,6 @@
-//Check number is Prime or not
-
 public class CheckPrime {
-public static void main(String[] args) {
+	
+	public static void main(String[] args) {
 
     	int number = 13;
     	boolean isPrime = true;
