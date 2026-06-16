@@ -1,19 +1,10 @@
+package RevisionCodes;
+
 public class Test {
-    public static void main(String[] args) {
-        Status status = Status.APPROVED;
 
-        switch(status) {
-            case PENDING:
-                System.out.println("Request is pending");
-                break;
-
-            case APPROVED:
-                System.out.println("Request approved");
-                break;
-
-            case REJECTED:
-                System.out.println("Request rejected");
-                break;
-        }
-    }
-}
+	public static void main(String[] args) {
+		 Car vehical = new Car(120);
+		 vehical.run();
+		 vehical.speedDisplay();
+	}
+}                                                  
