@@ -1,4 +1,3 @@
-//print prime number from 1 to 50
 public class Practice3 {
 
 	public static void main(String[] args) {
@@ -9,6 +8,7 @@ public class Practice3 {
 				count++;
 			}
 		}
+		
 		if (count == 2) {
 			System.out.println("prime number");
 		} else {
