@@ -1,4 +1,3 @@
-//print even numbers from 1 to 100 but stop when you get first odd number.
 public class Evenodd {
 
 	public static void main(String[] args) {
