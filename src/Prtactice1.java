@@ -1,4 +1,3 @@
-//1234------4321 reverse the number
 public class Prtactice1 {
 
 	public static void main(String[] args) {
