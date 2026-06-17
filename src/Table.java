@@ -1,4 +1,3 @@
-//print table of 9 but stop when product become more then 50
 public class Table {
 
 	public static void main(String[] args) {
@@ -9,5 +8,4 @@ public class Table {
 			System.out.println(i * 9);
 		}
 	}
-
 }
