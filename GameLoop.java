@@ -9,9 +9,9 @@ public class GameLoop implements Runnable {
         while (running) {
             try {
                 System.out.println("Game is updating...");
-                Thread.sleep(500); // Wait 500 milliseconds per frame
+                Thread.sleep(500);
             } catch (InterruptedException e) {
-                Thread.currentThread().interrupt(); // Restore interrupted status
+                Thread.currentThread().interrupt();
                 System.out.println("Thread was interrupted.");
             }
         }
