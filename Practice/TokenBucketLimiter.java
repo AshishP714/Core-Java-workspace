@@ -2,7 +2,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 public class TokenBucketLimiter {
     private final long maxCapacity;
-    private final long refillRatePerMs; // tokens per millisecond
+    private final long refillRatePerMs;
     
     private final AtomicLong availableTokens;
     private final AtomicLong lastRefillTimestamp;
@@ -17,11 +17,10 @@ public class TokenBucketLimiter {
     public boolean allowRequest() {
         refill();
         
-        // Atomically decrement a token if available
         while (true) {
             long currentTokens = availableTokens.get();
             if (currentTokens <= 0) {
-                return false; // Throttled!
+                return false;
             }
             if (availableTokens.compareAndSet(currentTokens, currentTokens - 1)) {
                 return true;
@@ -37,7 +36,7 @@ public class TokenBucketLimiter {
         if (elapsedMs > 0) {
             long tokensToAdd = elapsedMs * refillRatePerMs;
             if (tokensToAdd > 0) {
-                // Try to update the timestamp safely
+               
                 if (lastRefillTimestamp.compareAndSet(lastRefill, now)) {
                     availableTokens.updateAndGet(tokens -> 
                         Math.min(maxCapacity, tokens + tokensToAdd)
