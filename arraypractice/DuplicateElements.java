@@ -1,6 +1,7 @@
 package com.arraypractice;
 
 public class DuplicateElements {
+	
 	public static void main(String[] args) {
 		int[] arr = { 36, 89, 12, 26, 36, 89, 12 };
 	
