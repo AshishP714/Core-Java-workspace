@@ -3,6 +3,7 @@ package com.arraypractice;
 import java.util.Scanner;
 
 public class Length {
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -17,9 +18,7 @@ public class Length {
 			length++;
 		}
 		System.out.println("length of 1 d array is =" + length);
-		// using method
 		System.out.println("Length of array is =" + arr1.length);
 		sc.close();
-
 	}
 }
