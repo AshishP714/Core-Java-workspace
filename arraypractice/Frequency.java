@@ -1,6 +1,7 @@
 package com.arraypractice;
 
 public class Frequency {
+	
 	public static void main(String[] args) {
 		int[] arr = { 121, 87, 22, 22, 12, 78, 78,12,78};
 		for (int i = 0; i < arr.length; i++) {
