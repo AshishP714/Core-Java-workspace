@@ -3,6 +3,7 @@ package com.arraypractice;
 import java.util.Arrays;
 
 public class Ascending {
+	
 	public static void main(String[] args) {
 		int[] arr = { 45, 27, 19, 100 };
 	for(int i=0;i<arr.length;i++) {
