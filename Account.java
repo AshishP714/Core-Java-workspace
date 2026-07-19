@@ -1,9 +1,4 @@
 package com.parameterizedconstructor;
-//Create a class Account with:
-
-//Default constructor → set balance = 1000
-//Parameterized constructor → set balance based on user input
-//Display both account balances.**
 
 public class Account {
 	int balance;
@@ -21,5 +16,4 @@ public class Account {
 	public String toString() {
 		return " Balance2 = " + balance;
 	}
-
 }
