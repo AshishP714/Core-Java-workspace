@@ -1,10 +1,3 @@
-/*
-2. WAP to accept 5 email ids and print their domain names only.
-For example:
-input: abhishek@gmail.com, leena@ymail.com, yash@outlook.co.in, rahul@yahoo.com, vishal@google.org
-output: gmail, ymail, outlook, yahoo, google
-*/
-
 import java.util.Scanner;
 
 public class Email {
