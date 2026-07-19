@@ -4,16 +4,11 @@ public class HeapSort {
 
     public static void heapSort(int[] arr) {
         int n = arr.length;
-
-        // Build max heap
         for (int i = n / 2 - 1; i >= 0; i--) {
             heapify(arr, n, i);
         }
 
-        // Extract elements
         for (int i = n - 1; i > 0; i--) {
-
-            // swap root with last
             int temp = arr[0];
             arr[0] = arr[i];
             arr[i] = temp;
@@ -23,7 +18,6 @@ public class HeapSort {
     }
 
     public static void heapify(int[] arr, int n, int i) {
-
         int largest = i;
         int left = 2 * i + 1;
         int right = 2 * i + 2;
@@ -39,7 +33,6 @@ public class HeapSort {
             int swap = arr[i];
             arr[i] = arr[largest];
             arr[largest] = swap;
-
             heapify(arr, n, largest);
         }
     }
@@ -48,7 +41,6 @@ public class HeapSort {
         int[] arr = {4, 10, 3, 5, 1};
 
         heapSort(arr);
-
         System.out.println("Sorted Array: " + Arrays.toString(arr));
     }
 }
