@@ -1,7 +1,3 @@
-/*3. WAP to accept names of 10 fruits of your choice. Print only those fruit names which starts with either 'P' or has 'M' 
- in it and no of vowels in the fruit name is more than two.
- */
-
 import java.util.Scanner;
 
 public class Fruits {
@@ -25,11 +21,8 @@ public class Fruits {
 					if (vowels == 2) {
 						System.out.println(Fruit[i]);
 					}
-
 				}
-
 			}
-
 		}
 		scanner.close();
 	}
