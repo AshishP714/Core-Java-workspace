@@ -6,9 +6,7 @@ public class BallArrangement {
 
     public static void main(String[] args) {
         int G = 1, Y = 1, R = 1;  
-
         findWays(G, Y, R, ' ', "");  
-
         System.out.println("Output: " + totalWays);
     }
 
