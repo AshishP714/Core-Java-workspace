@@ -29,10 +29,6 @@ public class ByObjectCreation {
 		System.out.println(System.identityHashCode(s1));
 		System.out.println(System.identityHashCode(s2));
 		System.out.println(System.identityHashCode(s3));
-		System.out.println(System.identityHashCode(s4));
-		
-		
+		System.out.println(System.identityHashCode(s4));	
 	}
-
-
 }
