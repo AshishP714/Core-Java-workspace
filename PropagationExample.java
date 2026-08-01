@@ -1,14 +1,14 @@
 public class PropagationExample {
 
-    void method3() {
+    public void method3() {
         int result = 50 / 0;
     }
 
-    void method2() {
+    public void method2() {
         method3();
     }
 
-    void method1() {
+    public void method1() {
         try {
             method2();
         } catch (Exception e) {
