@@ -1,7 +1,5 @@
 package comm.pracctice;
-//8. Convert Uppercase to Lowercase Without Built-in Method
-//Input: "HELLO"
-//Output: "hello"
+
 public class UpperLower {
 public static void main(String[] args) {
 	String str="HELLO";
@@ -12,11 +10,8 @@ public static void main(String[] args) {
 			str1=str1+(char)(ch+32);
 		}else {
 			str1=str1+(char)(ch+32);
-		}
-	
-		
+		}		
 	}
 	System.out.println(str1);
-	
-}
+	}
 }
