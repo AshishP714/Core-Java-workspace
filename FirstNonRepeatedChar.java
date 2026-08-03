@@ -10,12 +10,10 @@ public class FirstNonRepeatedChar {
 
         Map<Character, Integer> counts = new LinkedHashMap<>();
 
-        // Step 1: Count frequencies of each character
         for (char ch : str.toCharArray()) {
             counts.put(ch, counts.getOrDefault(ch, 0) + 1);
         }
 
-        // Step 2: Find the first character with a count of 1
         for (Map.Entry<Character, Integer> entry : counts.entrySet()) {
             if (entry.getValue() == 1) {
                 return entry.getKey();
